@@ -215,3 +215,90 @@ int main()
 		}
 	} while (option != 4);
 }
+
+/*
+	 Enter the required option: 
+	 CPU Scheduling Algorithms: 
+	 1. FCFS 
+	 2. SJF 
+	 3. Round Robin 
+	 4. Exit  1
+	Enter the number of processes: 4
+	Enter the Arrival and burst time of Process : P0
+	0 6
+
+	Process : P1
+	1 8
+
+	Process : P2
+	2 1
+
+	Process : P3
+	3 3
+
+
+	Arrival Burst   CT      TT      WT
+	0       6       6       6       0
+	1       8       14      13      5
+	2       1       15      13      12
+	3       3       18      15      12
+
+	 CPU Scheduling Algorithms:
+	 1. FCFS
+	 2. SJF
+	 3. Round Robin
+	 4. Exit  2
+	enter the number of processes4
+	Enter arrival time of  process 1
+	0 6
+	Enter burst time of  process 1
+	Enter arrival time of  process 2
+	0
+	Enter burst time of  process 2
+	8
+	Enter arrival time of  process 3
+	0
+	Enter burst time of  process 3
+	1
+	Enter arrival time of  process 4
+	0
+	Enter burst time of  process 4
+	3
+
+	 p2      0       1       1       1      0
+	 p3      0       3       4       4      1
+	 p0      0       6       10      10     4
+	 p1      0       8       18      18     10
+	 CPU Scheduling Algorithms:
+	 1. FCFS
+	 2. SJF
+	 3. Round Robin
+	 4. Exit  3
+	Enter the number of processes4
+	Enter the Arrival and burst time of Process :P0
+	0 6 
+
+	Process :P1
+	1 8
+
+	Process :P2
+	2 1
+
+	Process :P3
+	3 3
+
+
+	Enter the quantum4
+
+	Arrival Burst   CT      TT      WT
+	0       6       14      14      8
+	1       8       18      17      9
+	2       1       9       7       6
+	3       3       12      9       6
+
+	 CPU Scheduling Algorithms:
+	 1. FCFS
+	 2. SJF
+	 3. Round Robin
+	 4. Exit  4
+	*/
