@@ -197,3 +197,67 @@ void main()
 		}
 	}
 }
+
+
+
+/*
+Output: 
+	DISK SCHEDULING
+	----------------
+
+	1.FCFS
+	2.Scan
+	3.C-scan        
+	4.Exit
+	Enter your option : 1
+	FCFS
+	------
+	Enter the number of Requests
+	7
+	Enter the Requests sequence
+	82 170 43 140 24 16 190
+	Enter initial head position
+	50
+	Total head moment is 642
+	1.FCFS
+	2.Scan
+	3.C-scan
+	4.Exit
+	Enter your option : 2
+	SCAN
+	-----
+	Enter the number of Requests
+	7
+	Enter the Requests sequence
+	82 170 43 140 24 16 190
+	Enter initial head position
+	50
+	Enter total disk size
+	200
+	Enter the head movement direction for high 1 and for low 0
+	1
+	Total head movement is 332
+	1.FCFS
+	2.Scan
+	3.C-scan
+	4.Exit
+	Enter your option : 3
+	C-SCAN
+	-------
+	Enter the number of Requests
+	7
+	Enter the Requests sequence
+	82 170 43 140 24 16 190
+	Enter initial head position
+	50
+	Enter total disk size
+	200
+	Enter the head movement direction for high 1 and for low 0
+	1
+	Total head movement is 391
+	1.FCFS
+	2.Scan
+	3.C-scan
+	4.Exit
+	Enter your option : 4
+*/
