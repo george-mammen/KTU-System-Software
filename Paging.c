@@ -109,3 +109,67 @@ void main()
 		}
 	}
 }
+
+/*
+Output: 
+
+	enter the main memory size in bytes:1024
+
+	enter the page size/frame size:128
+	8 frames are present in main memory and let them be numbered from 0 to 7
+	enter the number of processes:3
+
+	enter the number of pages for process 0:1
+
+	page no 0 of process 0 is allocated to which frame:0
+
+	enter the number of pages for process 1:4
+
+	page no 0 of process 1 is allocated to which frame:1
+
+	page no 1 of process 1 is allocated to which frame:2
+
+	page no 2 of process 1 is allocated to which frame:3
+
+	page no 3 of process 1 is allocated to which frame:4
+
+	enter the number of pages for process 2:4
+
+	page no 0 of process 2 is allocated to which frame:5
+
+	page no 1 of process 2 is allocated to which frame:6
+
+	page no 2 of process 2 is allocated to which frame:7
+
+	page no 3 of process 2 is allocated to which frame:0
+
+	already allocated frame:
+	number of free frames: 0
+	the free frames are:
+	no enough frames are free to be allocated to this process!
+	enter the process to be terminated:0
+
+	page no 3 of process 2 is allocated to which frame:0
+
+	Allocation for process 0        -1 indicates no allocation!
+	~~~~~~~~~~~~~~~~~~~~~~~
+	page no         frame no
+	----------------------
+	0               -1
+	Allocation for process 1        -1 indicates no allocation!
+	~~~~~~~~~~~~~~~~~~~~~~~
+	page no         frame no
+	----------------------
+	0               1
+	1               2
+	2               3
+	3               4
+	Allocation for process 2        -1 indicates no allocation!
+	~~~~~~~~~~~~~~~~~~~~~~~
+	page no         frame no
+	----------------------
+	0               5
+	1               6
+	2               7
+	3               0
+*/
